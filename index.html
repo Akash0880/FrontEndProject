@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport content="width=device-width, initial-scale="1.0">
+        <title>Gaming Website Page</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="navbar">
+                <img src="index4.png" class="logo">
+                <nav>
+                    <ul id="menuList">
+                        <li><a href="https://www.playstation.com/en-in/support/hardware/ps4-dualshock-4-wireless-troubleshooting/#:~:text=PS4%3A%20pair%20DUALSHOCK%204%20wireless,and%20use%20the%20controller%20wirelessly." target="blank">Game Controllers</a></li>
+                        <li><a href="https://www.playstation.com/en-in/ps4/ps4-accessories/" target="blank">VR Accessories</a></li>
+                        <li><a href="https://www.playstation.com/en-us/ps4/?smcid=pdc%3Aen-us%3Aps4-tech-specs%3Aprimary%20nav%3Amsg-hardware%3Aps4" target="blank">Hardware</a></li>
+                        <li><a href="https://blog.playstation.com/?smcid=pdc%3Aen-us%3Asupport-account%3Aprimary%20nav%3Amsg-news%3Aps-blog" target="blank">News</a></li>
+                        <li><a href="https://www.playstation.com/en-us/support/?smcid=pdc%3Aen-us%3Aps4%3Aprimary%20nav%3Amsg-support%3Asupport" target="blank">Support</a></li>
+                    </ul>
+                </nav>
+                <img src="index3.png" class="menu-icon" 
+                onclick="togglemenu()">
+            </div>
+            <div class="row">
+                <div class="col-1">
+                    <h2>PS4 V2<br> Dualshock 4</h2>
+                    <h3>Wireless Controller for Playstation 4</h3>
+                    <p>(Compatible/Generic)</p>
+                    <h4>$43.60</h4>
+                    <button type="button"><a href="https://www.gamestheshop.com" target="blank">Buy Now</a><img src="index2.png">
+                     </button>
+                </div>
+                <div class="col-2">
+                    <img src="index5.png" class="controller">
+                    <div class="color-box"></div>
+                    <div class="add-btn">
+                        <img src="index1.png">
+                        <p><small><a href="https://my.account.sony.com/central/signin/?duid=00000007000901005cab61b1c50322281d683ab9d2e738b3a451c7216190c329e39cee4fc71d4da6&response_type=code&client_id=e4a62faf-4b87-4fea-8565-caaabb3ac918&scope=web%3Acore&access_type=offline&state=f736a2d686dff3fe1fb1256d440f4cf8b4d236e5a4ab3259bf38d281472dbf68&service_entity=urn%3Aservice-entity%3Apsn&ui=pr&smcid=web-store%3Aen-HK%3Adetail-undefined%3Apage%3Alink&redirect_uri=https%3A%2F%2Fweb.np.playstation.com%2Fapi%2Fsession%2Fv1%2Fsession%3Fredirect_uri%3Dhttps%253A%252F%252Fstore.playstation.com%252Fen-hk%252Fproduct%252FHP9000-CUSA07372_00-0000000000000001%253FcartAction%253Dadd%2526skuId%253DHP9000-CUSA07372_00-0000000000000001-H001%2526upSellService%253DNONE%2526cartAction%253Dadd%2526skuId%253DHP9000-CUSA07372_00-0000000000000001-H001%2526upSellService%253DNONE%26x-psn-app-ver%3D%2540sie-ppr-web-session%252Fsession%252Fv5.13.1&auth_ver=v3&error=login_required&error_code=4165&error_description=User+is+not+authenticated&no_captcha=false&cid=066dd981-d020-4e33-adc9-179d989efa17#/signin/ca?entry=ca" target="blank">Add to Cart</a></small></p>
+                    </div>
+                </div>
+            </div>
+            <div class="social-links">
+                <img src="index8.png">
+                <img src="index6.png">
+                <img src="index7.png">
+            </div>
+        </div>
+
+        <script>
+            var menuList = document.getElementById("menuList");
+            menuList.style.maxHeight = "0px";
+            function togglemenu(){
+                if( menuList.style.maxHeight == "0px")
+                {
+                    menuList.style.maxHeight = "130px";
+                }
+                else
+                {
+                    menuList.style.maxHeight = "0px";
+                }
+            }
+        </script>
+
+    </body>
+</html>
